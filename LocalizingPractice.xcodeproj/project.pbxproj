@@ -14,6 +14,9 @@
 		F19DFF391A42772900662833 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19DFF381A42772900662833 /* Images.xcassets */; };
 		F19DFF3C1A42772900662833 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F19DFF3A1A42772900662833 /* LaunchScreen.xib */; };
 		F19DFF481A42772900662833 /* LocalizingPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F19DFF471A42772900662833 /* LocalizingPracticeTests.m */; };
+		F19DFF571A42794A00662833 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F19DFF561A42794A00662833 /* Default-568h@2x.png */; };
+		F19DFF5A1A427A1E00662833 /* actress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F19DFF5C1A427A1E00662833 /* actress.jpg */; };
+		F19DFF661A427CDA00662833 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F19DFF541A42781C00662833 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		F19DFF281A42772900662833 /* LocalizingPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizingPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F19DFF2C1A42772900662833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F19DFF2D1A42772900662833 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F19DFF2F1A42772900662833 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F19DFF301A42772900662833 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +42,20 @@
 		F19DFF411A42772900662833 /* LocalizingPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizingPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19DFF461A42772900662833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F19DFF471A42772900662833 /* LocalizingPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizingPracticeTests.m; sourceTree = "<group>"; };
+		F19DFF531A42781C00662833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		F19DFF551A42781D00662833 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		F19DFF561A42794A00662833 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F19DFF5B1A427A1E00662833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/actress.jpg; sourceTree = "<group>"; };
+		F19DFF5D1A427A2D00662833 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/actress.jpg; sourceTree = "<group>"; };
+		F19DFF5F1A427BBE00662833 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F19DFF601A427BBE00662833 /* ko */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ko; path = ko.lproj/actress.jpg; sourceTree = "<group>"; };
+		F19DFF611A427BBE00662833 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ko; path = ko.lproj/Info.plist; sourceTree = "<group>"; };
+		F19DFF631A427BC500662833 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F19DFF641A427BC500662833 /* ja */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ja; path = ja.lproj/actress.jpg; sourceTree = "<group>"; };
+		F19DFF651A427BC500662833 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ja; path = ja.lproj/Info.plist; sourceTree = "<group>"; };
+		F19DFF791A42899200662833 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		F19DFF7B1A42899400662833 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		F19DFF7D1A42899500662833 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,7 @@
 		F19DFF1F1A42772900662833 = {
 			isa = PBXGroup;
 			children = (
+				F19DFF561A42794A00662833 /* Default-568h@2x.png */,
 				F19DFF2A1A42772900662833 /* LocalizingPractice */,
 				F19DFF441A42772900662833 /* LocalizingPracticeTests */,
 				F19DFF291A42772900662833 /* Products */,
@@ -81,6 +98,7 @@
 		F19DFF2A1A42772900662833 /* LocalizingPractice */ = {
 			isa = PBXGroup;
 			children = (
+				F19DFF5C1A427A1E00662833 /* actress.jpg */,
 				F19DFF2F1A42772900662833 /* AppDelegate.h */,
 				F19DFF301A42772900662833 /* AppDelegate.m */,
 				F19DFF321A42772900662833 /* ViewController.h */,
@@ -96,7 +114,7 @@
 		F19DFF2B1A42772900662833 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F19DFF2C1A42772900662833 /* Info.plist */,
+				F19DFF541A42781C00662833 /* Info.plist */,
 				F19DFF2D1A42772900662833 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -182,6 +200,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
+				ja,
 			);
 			mainGroup = F19DFF1F1A42772900662833;
 			productRefGroup = F19DFF291A42772900662833 /* Products */;
@@ -201,6 +221,9 @@
 			files = (
 				F19DFF371A42772900662833 /* Main.storyboard in Resources */,
 				F19DFF3C1A42772900662833 /* LaunchScreen.xib in Resources */,
+				F19DFF661A427CDA00662833 /* Info.plist in Resources */,
+				F19DFF5A1A427A1E00662833 /* actress.jpg in Resources */,
+				F19DFF571A42794A00662833 /* Default-568h@2x.png in Resources */,
 				F19DFF391A42772900662833 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +271,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				F19DFF361A42772900662833 /* Base */,
+				F19DFF791A42899200662833 /* en */,
+				F19DFF7B1A42899400662833 /* ko */,
+				F19DFF7D1A42899500662833 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -256,8 +282,32 @@
 			isa = PBXVariantGroup;
 			children = (
 				F19DFF3B1A42772900662833 /* Base */,
+				F19DFF5F1A427BBE00662833 /* ko */,
+				F19DFF631A427BC500662833 /* ja */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F19DFF541A42781C00662833 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19DFF531A42781C00662833 /* Base */,
+				F19DFF551A42781D00662833 /* en */,
+				F19DFF611A427BBE00662833 /* ko */,
+				F19DFF651A427BC500662833 /* ja */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		F19DFF5C1A427A1E00662833 /* actress.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19DFF5B1A427A1E00662833 /* Base */,
+				F19DFF5D1A427A2D00662833 /* en */,
+				F19DFF601A427BBE00662833 /* ko */,
+				F19DFF641A427BC500662833 /* ja */,
+			);
+			name = actress.jpg;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,7 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LocalizingPractice/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LocalizingPracticeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LocalizingPractice/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LocalizingPracticeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +462,7 @@
 				F19DFF4D1A42772900662833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F19DFF4E1A42772900662833 /* Build configuration list for PBXNativeTarget "LocalizingPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +471,7 @@
 				F19DFF501A42772900662833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
